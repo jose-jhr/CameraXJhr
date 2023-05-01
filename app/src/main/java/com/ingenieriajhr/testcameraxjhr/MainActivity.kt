@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         cameraJhr.initBitmap()
         cameraJhr.initImageProxy()
 
-        cameraJhr.start(0,0,binding.cameraPreview,false,true,false)
+        cameraJhr.start(0,0,binding.cameraPreview,true,true,false)
 
     }
 
